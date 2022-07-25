@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title align="center" style="font-family:Lucida Handwriting;background-color:#c4346c;">Groopet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-segment [(ngModel)]="selectTabs">
+    <ion-segment-button value="login">
+      <ion-label>Login</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="signup">
+      <ion-label>Sign Up</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <br><br><br>
+
+
+  <div  style="text-align:center;" *ngIf= "selectTabs === 'login'">
+    <strong>Hello! Welcome Back</strong>
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-input placeholder="Email" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Password" type="password"></ion-input>
+      </ion-item>
+      <br>
+      <ion-button expand="block">Login</ion-button>
+    </ion-card-content>
+
+  </ion-card>
+  </div>
+  <ion-card *ngIf= "selectTabs === 'signup'">
+    <ion-card-content>
+      <ion-item>
+        <ion-input placeholder="Full Name" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Username" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Email" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Password" type="password"></ion-input>
+      </ion-item>
+      <br>
+      <ion-button expand="block">Sign Up</ion-button>
+    </ion-card-content>
+
+  </ion-card>
+
+</ion-content>

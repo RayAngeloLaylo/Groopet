@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 35px;
+  font-family:Lucida Handwriting;
+  color:#c9356c
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a.ex2:hover, a.ex2:active
+{
+  font-size: 150%;
+}
+
+ion-content
+{
+  --ion-background-color:#fff2f7;
+}
+
+.tr
+{
+  position:fixed;
+  top:0;
+  right: 0;
+  size: 70%;
+}
+
+.bl
+{
+  position:fixed;
+  bottom:0;
+  left: 0;
+  size:70%;
+}
