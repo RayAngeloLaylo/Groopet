@@ -28,5 +28,5 @@
 
 ### Significance of the Project
 
-#### Community - The community benefits from this application by making pet grooming more enjoyable. They can look up the details of the registered groomers to determine which one is ideal for their pets. 
+Community - The community benefits from this application by making pet grooming more enjoyable. They can look up the details of the registered groomers to determine which one is ideal for their pets. 
 
