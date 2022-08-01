@@ -21,6 +21,7 @@
 ![goal333](https://user-images.githubusercontent.com/102673173/182163758-3e439b7d-5386-4ba3-a4a8-dcd790d85f5a.jpg)
 
 ### Purpose and Description
+<p align = "justify">Groopet intends to facilitate communication between pet groomers and pet owners in order to provide a simple and secure transaction. The pet groomers will be able to register their accounts on the newly designed technological method so that clients may make appointments with them. The registered groomers' information is available to the clients, who can also rate the groomers. This will assist clients in selecting the best pet groomer. They can choose the frequency of the groomers' visits as well. The user's internet connection will also affect the development of the program; if the user's data connection is slow, so will be the procedure for gathering data from the application server.</p>
 
 ### Objective
 
