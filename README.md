@@ -25,3 +25,8 @@
 ### Objective
 
 <p align = "justify"> The main goal of this study is to create Groopet, a platform and mobile application to assist pet owners and pet groomers in having a positive experience when it comes to grooming their pets and to have a secure and simple transaction. Groopet will be developed using the technology HTML, CSS, and JavaScript with the use of the Ionic and Angular Frameworks.</p>
+
+### Significance of the Project
+
+#### Community - The community benefits from this application by making pet grooming more enjoyable. They can look up the details of the registered groomers to determine which one is ideal for their pets. 
+
