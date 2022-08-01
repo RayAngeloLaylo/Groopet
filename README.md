@@ -1,2 +1,2 @@
-  ﻿# Groopet: Groomer Appointment Scheduling App
+﻿# Groopet: Groomer Appointment Scheduling App
 # Introduction
