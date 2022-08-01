@@ -1,6 +1,4 @@
-
-
-<h1 align = "center" Groopet: Groomer Appointment Scheduling App. </h1>
+<h1 align = "center" > Groopet: Groomer Appointment Scheduling App. </h1>
  
 ### Introduction
 
