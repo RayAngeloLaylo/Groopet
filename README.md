@@ -18,4 +18,4 @@
 
 #### Goal 3: Good Health and Well-Being
 
-![goal3](https://user-images.githubusercontent.com/102673173/182163444-ac0d91a0-5c3c-4476-8cff-d98d8555c30e.png)
+![goal333](https://user-images.githubusercontent.com/102673173/182163758-3e439b7d-5386-4ba3-a4a8-dcd790d85f5a.jpg)
