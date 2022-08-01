@@ -8,3 +8,8 @@
 
   Additionally, the team plans to design and create a mobile application that will give users access to data about registered groomers, assisting clients in selecting the groomer who is most appropriate for their pets. </p>
 
+### SDG
+
+
+#### Goal 8: Decent Work and Economic Growth
+
