@@ -1,3 +1,5 @@
+![we](https://user-images.githubusercontent.com/102673173/182534253-5a040619-4aac-47d2-9c9e-d4fd9bb66087.jpg)
+
 <h1 align = "center" > Groopet: Groomer Appointment Scheduling App. </h1>
  
 ### Introduction
