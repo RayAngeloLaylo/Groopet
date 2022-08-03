@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ProofpaymentPageRoutingModule } from './proofpayment-routing.module';
 
 import { ProofpaymentPage } from './proofpayment.page';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { ProofpaymentPage } from './proofpayment.page';
     IonicModule,
     ProofpaymentPageRoutingModule
   ],
-  declarations: [ProofpaymentPage]
+  declarations: [ProofpaymentPage, NavbarComponent]
 })
 export class ProofpaymentPageModule {}

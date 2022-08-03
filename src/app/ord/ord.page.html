@@ -90,9 +90,13 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+  <ion-select interface="popover" placeholder="Select Payment Method"  [(ngModel)]="pets">
+    <ion-select-option value="cash"> Cash Payment</ion-select-option>
+    <ion-select-option value="net">E-Wallet</ion-select-option>
+  </ion-select>
   <center>
-  <ion-button color="primary">Submit</ion-button>
-</center>
+  <ion-button color="primary" routerLink="/proofpayment">Submit</ion-button>
+</center> 
 </ion-content>
 <ion-footer>
   <ion-toolbar>

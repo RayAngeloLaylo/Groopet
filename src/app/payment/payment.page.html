@@ -1,15 +1,69 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title align="center" style="font-family:Lucida Handwriting;background-color:#c4346c;">Groopet</ion-title>
+<ion-app>
+  <ion-header>
+  <ion-toolbar class="head">
+    <ion-title align="center" style="font-family:Lucida Handwriting;color: white;">Groopet</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content style="color:#FFC0CB" [fullscreen]="true">
-<h5 style="color:black"><b>&nbsp;&nbsp;&nbsp;Payment Summary</b></h5>
-<p style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subtotal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 3000</p>
-<p style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fee Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 5000</p>
-<p style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 5000</p>
-<p style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shuttle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 6000</p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<ion-button id="btn" expand="block" > Continue Payment </ion-button>
+<ion-content class="bods">
+<ion-grid align="center">
+  <ion-row>
+    <ion-col>
+      <div><b>Price Summary</b></div>
+    </ion-col>
+    <ion-col>
+      <div></div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <div>Subtotal Services</div>
+    </ion-col>
+    <ion-col>
+      <div>Php 500</div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <div>Discount Package</div>
+    </ion-col>
+    <ion-col>
+      <div>Php 0</div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <div>Additional Services</div>
+    </ion-col>
+    <ion-col>
+      <div>Php 0</div>
+    </ion-col>
+  </ion-row>
+  <div class="test">
+  </div>
+  <ion-row>
+    <ion-col>
+      <div><b>Total</b></div>
+    </ion-col>
+    <ion-col>
+      <div><b>Php 500</b></div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <div><b>Payment Method</b></div>
+    </ion-col>
+    <ion-col>
+      <div><b>Cash</b></div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<center>
+  <ion-button color="primary" (click)="presentAlert()">Submit</ion-button>
+</center>
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <app-navbar></app-navbar>
+  </ion-toolbar>
+</ion-footer>
+</ion-app>

@@ -1,1 +1,37 @@
-
+    .bods{
+        --background: #f7eaf3;
+    }
+    
+    .head {
+        --background: #c4346c;
+    }
+    .temp{
+        --background: #c4346c;
+    
+    }
+    .ion-activated{
+            background-color: transparent;
+            width:100%;
+            border: solid 1px red;
+    }
+  strong
+  {
+    color:black
+  }
+  .container{
+    text-align: center;
+    font-size: 25px;
+    font-family:Lucida Handwriting;
+    color:#c9356c
+  }
+  .containerz{
+    text-align: center;
+    font-size: 15px;
+    font-family:Lucida Handwriting;
+    color:#92284f
+  }
+  
+  img{
+    height: 80px;
+    width: 80px;
+  }

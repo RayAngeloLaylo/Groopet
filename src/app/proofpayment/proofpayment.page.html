@@ -1,67 +1,58 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title align ="center" style="font-family:Lucida Handwriting;background-color:#c4346c;">Groopet</ion-title>
+<ion-app>
+  <ion-header>
+  <ion-toolbar class="head">
+    <ion-title align="center" style="font-family:Lucida Handwriting;color: white;">Groopet</ion-title>
   </ion-toolbar>
 </ion-header>
-
-
-
-
-<ion-content style="color:#FFC0CB" [fullscreen]="true">
-<ion-card-content>
-  <ion-card color="light">
+<ion-content  class="bods">
+  <ion-card class ="taas">
     <ion-card-header>
-      <ion-card-title><h2>Code Booking &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paw-213451</h2> </ion-card-title>
+      <ion-grid align="center">
+        <ion-row>
+          <ion-col>
+            <div><b>Booking Code</b></div>
+          </ion-col>
+          <ion-col>
+            <div>PAW32423</div>
+          </ion-col>
+        </ion-row>
+        </ion-grid>
     </ion-card-header>
   </ion-card>
-  </ion-card-content>
-  
-
-
-
-<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address</h5>
-
-<ion-card-content>
-  <ion-card color="light">
-    <ion-card-header>
-      <ion-item href="">
-        <ion-label>
-         <h7>123 dimakita St. </h7>
-        </ion-label>
-        <ion-icon name="location-outline" slot="start"></ion-icon>
-      </ion-item>
-    </ion-card-header>
-  </ion-card>
-  </ion-card-content>
-
-  
-  <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scheduled</h5>
-  <ion-card-content >
-    <ion-card color="light">
-      <ion-card-header>
-           <h7>Date: Aug 5, 2022 :Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:00pm - 2:00pm <br>
-           2 cats
-          </h7>
-          
-
-      </ion-card-header>
-    </ion-card>
+  <ion-label> &nbsp; &nbsp; <b>Address</b></ion-label>
+  <ion-card class ="taas">
+    <ion-card-content>
+      <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678
+    </ion-item>
     </ion-card-content>
-   
-    <ion-card-content >
-      <ion-card color="light">
-        <ion-card-header>
-             <h7>Date: Aug 7, 2022 :Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:00pm - 2:00pm <br>
-             1 Dog
-            </h7>
-            
+  </ion-card>
+  <ion-label> &nbsp; &nbsp; <b>Service Details</b></ion-label>
+  <ion-card class ="taas">
+    <ion-card-header>
+      <ion-card-title style="color: #c9356c;"><b>KingKong Petshop</b></ion-card-title>
+      <ion-card-subtitle style="color: #c9356c;"><b>Full Grooming</b></ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+      <ion-icon name="calendar" slot="start"></ion-icon>
+      02/08/2022
+    </ion-item>
+    <ion-item>
+      <ion-icon name="paw" slot="start"></ion-icon>
+      2 Dogs
+    </ion-item>
+    </ion-card-content>
+  </ion-card>
   
-        </ion-card-header>
-      </ion-card>
-      </ion-card-content>
-    
-<p style="color:black"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 3000</b></p>
-      <p style="color:black"><b>&nbsp;&nbsp;&nbsp;Payment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cash </b>
-      <br><br><br><br><br><br><br><br><br><br><br>
-      <ion-button id="btn" expand="block" > OK</ion-button>
+  <center>
+  <ion-button color="primary" routerLink="/payment">Proceed Payment</ion-button>
+</center> 
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <app-navbar></app-navbar>
+  </ion-toolbar>
+</ion-footer>
+</ion-app>
