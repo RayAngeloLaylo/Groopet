@@ -22,6 +22,14 @@ const routes: Routes = [
     path: 'profile',
     loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
   },
+  {
+    path: 'pgroomer',
+    loadChildren: () => import('./pgroomer/pgroomer.module').then( m => m.PgroomerPageModule)
+  },
+  {
+    path: 'ord',
+    loadChildren: () => import('./ord/ord.module').then( m => m.OrdPageModule)
+  },
 
 ];
 

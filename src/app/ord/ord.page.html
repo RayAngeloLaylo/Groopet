@@ -1,0 +1,102 @@
+<ion-app>
+  <ion-header>
+  <ion-toolbar class="head">
+    <ion-title align="center" style="font-family:Lucida Handwriting;color: white;">Groopet</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content  class="bods">
+  <ion-card class ="taas">
+    <ion-card-header>
+      <ion-card-title align="center"><b>Full Grooming</b></ion-card-title>
+      <ion-card-content>
+        <b>Duration 35 minutes...</b>  
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+  <br>
+  <ion-label> &nbsp; Number of Animals: 2</ion-label>
+  <br><br>
+  <ion-label> &nbsp; &nbsp;Animal Type: Dog</ion-label>
+  <br>
+  <br>
+  <ion-item>
+    <ion-label> &nbsp; &nbsp;Additional Services</ion-label>
+    <ion-select interface="popover" placeholder="Select Service/s"  [(ngModel)]="pets">
+      <ion-select-option value="small">Medicated Bath D& Blow Dry</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label>Pick date</ion-label>
+    <ion-input
+      value="{{ date | date: 'dd.MM.yyyy' }}"
+      id="date"
+      class="ion-text-end"
+    ></ion-input>
+    <ion-popover trigger="date" size="cover">
+      <ng-template>
+        <ion-datetime
+          presentation="date"
+          [(ngModel)]="date"
+          locale="sl-SI"
+        ></ion-datetime>
+      </ng-template>
+    </ion-popover>
+  </ion-item>
+  <ion-item>  
+    <ion-label>Additional Notes: </ion-label>
+    <ion-textarea placeholder="Enter more information here..."></ion-textarea>
+  </ion-item>
+  <ion-grid align="center">
+    <ion-row>
+      <ion-col>
+        <div><b>Price Summary</b></div>
+      </ion-col>
+      <ion-col>
+        <div></div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>Subtotal Services</div>
+      </ion-col>
+      <ion-col>
+        <div>Php 500</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>Discount Package</div>
+      </ion-col>
+      <ion-col>
+        <div>Php 0</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>Additional Services</div>
+      </ion-col>
+      <ion-col>
+        <div>Php 0</div>
+      </ion-col>
+    </ion-row>
+    <div class="test">
+    </div>
+    <ion-row>
+      <ion-col>
+        <div><b>Total</b></div>
+      </ion-col>
+      <ion-col>
+        <div><b>Php 500</b></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <center>
+  <ion-button color="primary">Submit</ion-button>
+</center>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <app-navbar></app-navbar>
+  </ion-toolbar>
+</ion-footer>
+</ion-app>

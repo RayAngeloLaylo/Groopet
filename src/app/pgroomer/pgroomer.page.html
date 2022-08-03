@@ -1,0 +1,72 @@
+<ion-app>
+  <ion-header>
+  <ion-toolbar class="head">
+    <ion-title align="center" style="font-family:Lucida Handwriting;color: white;">Groopet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  class="bods">
+  <ion-card>
+    <img src="./assets/img/pt1.jpg" />
+    <ion-card-header>
+      <ion-card-title><b>KINGKONG Petshop</b></ion-card-title>
+      <ion-card-subtitle>Grooming and Pet Care</ion-card-subtitle>
+      <ion-card-subtitle>Buendia, Pasay City, Philippines.</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title align="center"><b>Service Packages</b></ion-card-title>
+  </ion-card-header>
+<ion-card-content padding>
+  <ion-slides>
+    <ion-slide>
+      <ion-list>
+        <h2><b>Full Grooming</b></h2>
+        <ion-item>
+          <ion-select interface="popover" placeholder="Select Pet Size"  [(ngModel)]="pets">
+            <ion-select-option value="small">Small Breed (10kg below)</ion-select-option>
+            <ion-select-option value="med">Medium-Large Breed (11-39kg)</ion-select-option>
+            <ion-select-option value="giant">Giant Size (40kg above)</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <br>
+        <ion-input type="text" [(ngModel)]="price" text-right id="input" ></ion-input>
+        x
+        <div *ngIf="pets === 'small'"><p align="left">Small Breed = Php 500</p> <br>Total: {{price * 500}}</div>
+        <div *ngIf="pets === 'med'"><p align="left">Medium-Large = Php 1000</p><br>Total: {{price * 1000}}</div>
+        <div *ngIf="pets === 'giant'"><p align="left">Giant Size = Php 1500</p><br>Total: {{price * 1500}}</div>
+        <br>
+        <ion-button color="secondary">Confirm</ion-button>
+      </ion-list>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-list>
+        <h2><b>Medicated Bath D& Blow Dry</b></h2>
+        <ion-item>
+          <ion-select interface="popover" placeholder="Select Pet Size"  [(ngModel)]="pets">
+            <ion-select-option value="small">Small Breed (10kg below)</ion-select-option>
+            <ion-select-option value="med">Medium-Large Breed (11-39kg)</ion-select-option>
+            <ion-select-option value="giant">Giant Size (40kg above)</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <br>
+        <ion-input type="text" [(ngModel)]="price" text-right id="input" ></ion-input>
+        x
+        <div *ngIf="pets === 'small'"><p align="left">Small Breed = Php 500</p> <br>Total: {{price * 200}}</div>
+        <div *ngIf="pets === 'med'"><p align="left">Medium-Large = Php 1000</p><br>Total: {{price * 400}}</div>
+        <div *ngIf="pets === 'giant'"><p align="left">Giant Size = Php 1500</p><br>Total: {{price * 600}}</div>
+        <br>
+        <ion-button color="primary">Confirm</ion-button>
+      </ion-list>
+    </ion-slide>
+  </ion-slides>
+</ion-card-content>
+</ion-card>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <app-navbar></app-navbar>
+  </ion-toolbar>
+</ion-footer>

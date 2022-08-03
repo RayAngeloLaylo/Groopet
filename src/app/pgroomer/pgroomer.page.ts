@@ -10,5 +10,4 @@ export class PgroomerPage implements OnInit {
 
   ngOnInit() {
   }
-
 }
