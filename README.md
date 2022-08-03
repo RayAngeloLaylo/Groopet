@@ -31,3 +31,4 @@
 
 Community - The community benefits from this application by making pet grooming more enjoyable. They can look up the details of the registered groomers to determine which one is ideal for their pets. 
 
+Pet Owners - One of your most important responsibilities is to keep an eye on your pet's health. This includes having a balanced diet, exercising frequently, and maintaining proper grooming. Even though many pet owners might think that paying for pet grooming is a waste of money, your pet will benefit greatly from it. One of the key benefits of pet grooming is that owners frequently fail to notice subtle changes that occur to their pets over time. When you see your pet every day, it can be easy to miss little weight changes or invisible skin issues, for example.
