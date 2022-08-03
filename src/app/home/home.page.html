@@ -1,20 +1,57 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title align="center" style="font-family:Lucida Handwriting;background-color:#c4346c;">Groopet</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <br>
 
-  <div id="container">
-    <strong>Welcome to Groopet</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <div class="footer">
+  <ion-segment [(ngModel)]="selectTabs">
+      <ion-segment-button value="home">
+        <ion-label><ion-icon name="home-outline"></ion-icon><br>Home</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="services">
+        <ion-label><ion-icon name="paw-outline"></ion-icon><br>Services</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="profile">
+        <ion-label><ion-icon name="person-outline"></ion-icon><br>Profile</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+    </div>
+
+    <div  *ngIf= "selectTabs === 'home'">
+      <div class="container">
+      <ion-button><ion-icon name="paw"></ion-icon>Grooming</ion-button>
+      <ion-button><ion-icon name="home"></ion-icon>Care</ion-button>
+      <ion-button><ion-icon name="bookmark"></ion-icon>Favorite</ion-button>
+      <br>
+    </div>
+      <strong >Select Available Groomer</strong>
+    <ion-card>
+
+      <ion-card-content>
+        <img src="https://img.freepik.com/premium-photo/dog-gets-hair-cut-pet-spa-grooming-salon_170532-240.jpg?w=2000">
+        <strong>   Pet Groomer A</strong>
+      </ion-card-content>
+
+    </ion-card>
+    <ion-card>
+
+      <ion-card-content>
+        <img src="http://thepawspava.com/wp-content/uploads/2021/08/Pet-Grooming-tips.png">
+        <strong>   Pet Groomer B</strong>
+      </ion-card-content>
+
+    </ion-card>
+    <ion-card>
+
+      <ion-card-content>
+        <img src="https://americangroomingacademy.com/wp-content/uploads/2017/11/grooming-area2.jpg">
+        <strong>   Pet Groomer C</strong>
+      </ion-card-content>
+
+    </ion-card>
+    </div>
 </ion-content>
