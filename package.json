@@ -19,7 +19,10 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@awesome-cordova-plugins/header-color": "^5.44.0",
     "@ionic/angular": "^6.1.9",
+    "ion2-calendar": "^3.5.0",
+    "moment": "^2.29.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"

@@ -1,0 +1,79 @@
+<ion-app>
+  <ion-header>
+  <ion-toolbar class="head">
+    <ion-title align="center" style="font-family:Lucida Handwriting;color: white;">Groopet</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content  class="bods">
+    <ion-card-header>
+      <ion-card-title><b>Profile</b></ion-card-title>
+    </ion-card-header>
+  <ion-card>
+    <ion-item class = "temp">
+      <ion-label align= "left"style="color: white;">Owner</ion-label>
+      <ion-button fill="solid" slot="end">Edit</ion-button>
+    </ion-item>
+  </ion-card>  
+  <ion-avatar class="avatar">
+    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+  </ion-avatar>
+  
+  <ion-card text-wrap>
+    <ion-card-header>
+      <ion-card-title><h2>Test User</h2></ion-card-title>
+    </ion-card-header>
+  
+    <ion-item>
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-card-content>09262626277</ion-card-content>
+    </ion-item>
+  
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-card-content>Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678 </ion-card-content>
+    </ion-item>
+
+  </ion-card> 
+
+
+
+  <ion-card text-wrap>
+    <ion-card>
+      <ion-item class = "temp">
+        <ion-label align= "left"style="color: white;"><h3>Pets</h3></ion-label>
+        <ion-button fill="solid" slot="end">Edit</ion-button>
+      </ion-item>
+    </ion-card> 
+  
+    <ion-item>
+        <ion-avatar slot="start" class="avatar2">
+          <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+        </ion-avatar>
+        <ion-label>
+          <h2>Name: Mark</h2>
+          <h2>Type: Domestic Dog</h2>
+          <h2>Age: 2</h2>
+          <h2>Gender: Male</h2>
+        </ion-label>
+    </ion-item>
+  
+    <ion-item>
+      <ion-avatar slot="start" class="avatar2">
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+      </ion-avatar>
+      <ion-label>
+        <h2>Name: Anna</h2>
+        <h2>Type: Domestic Dog</h2>
+        <h2>Age: 2</h2>
+        <h2>Gender: Female</h2>
+      </ion-label>
+  </ion-item>
+
+  </ion-card>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <app-navbar></app-navbar>
+  </ion-toolbar>
+</ion-footer>
+</ion-app>
