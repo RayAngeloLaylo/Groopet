@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { AboutusPageRoutingModule } from './aboutus-routing.module';
 
 import { AboutusPage } from './aboutus.page';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { AboutusPage } from './aboutus.page';
     IonicModule,
     AboutusPageRoutingModule
   ],
-  declarations: [AboutusPage]
+  declarations: [AboutusPage, NavbarComponent]
 })
 export class AboutusPageModule {}

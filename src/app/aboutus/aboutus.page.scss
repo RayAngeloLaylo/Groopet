@@ -1,8 +1,11 @@
-.heads { 
+.head { 
+    --background: #c4346c; 
+} .heads { 
     --background: #c4346c; 
 } 
 .main{
-     --background: #dfdad0;
+     --background:#f7eaf3;
+;
      } 
      
 .main ion-card-title{
@@ -45,12 +48,12 @@
         border: solid #5a4b51; 
     } 
 .cardss{ 
-    --background: #e2b08e; 
+    --background: #eca5bf; 
     --color: black; 
     border-radius: 100px; 
     position: absolute; 
     text-align: center; 
-    top: 220%; 
+    top: 240%; 
     left: 39%; 
     width: 300px; 
     height: 104px; 
@@ -71,13 +74,13 @@
     border: solid #5a4b51; 
     } 
 .cardxx{ 
-    --background: #e2b08e; 
+    --background: #eca5bf; 
     --color: black; 
     border-radius: 100px; 
     position: absolute; 
     text-align: center; 
-    top: 274%; 
-    left: 39%; 
+    top: 300%; 
+    left: 40%; 
     width: 300px; 
     height: 104px; 
     margin: -100px 0 0 -100px; 
@@ -87,13 +90,12 @@
     font-weight: bold;
         } 
 .cardvv{ 
-    --background: #e2b08e; 
+    --background: #eca5bf; 
     --color: black; 
     border-radius: 100px; 
     position: absolute; 
     text-align: center; 
-    top: 332%; 
-    left: 40%; 
+    top: 355%; left: 40%; 
     width: 300px; 
     height: 104px; 
     margin: -100px 0 0 -100px; 
@@ -113,12 +115,13 @@ font-family:Candara Light;
 font-weight: bold; 
 } 
 .cardbb{ 
---background: #e2b08e; 
+--background: #eca5bf; 
 --color: black; 
 border-radius: 100px; 
 position: absolute; 
 text-align: center; 
-top: 385%; left: 40%; 
+top: 410%; 
+left: 40%;  
 width: 300px; 
 height: 104px; 
 margin: -100px 0 0 -100px;
@@ -138,12 +141,12 @@ border: solid #5a4b51;
     font-weight: bold;
 } 
 .cardnn{ 
-    --background: #e2b08e;
+    --background: #eca5bf;
     --color: black; 
     border-radius: 100px; 
     position: absolute; 
     text-align: center; 
-    top: 440%; 
+    top: 460%; 
     left: 40%; 
     width: 300px; 
     height: 104px; 

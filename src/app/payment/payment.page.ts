@@ -16,7 +16,7 @@ export class PaymentPage implements OnInit {
 
   async presentAlert() {
     const alert = await this.alertController.create({
-      header: 'Order of Service Succes!',
+      header: 'Order of Service Successful!',
       cssClass: 'custom-alert',
       buttons: [
         {

@@ -1,10 +1,10 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title align="center" style="font-family:Lucida Handwriting;background-color:#c4346c;">Groopet</ion-title>
+  <ion-toolbar class="head">
+    <ion-title align="center" style="font-family:Lucida Handwriting;color: white;">Groopet</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="bods">
   <ion-segment [(ngModel)]="selectTabs">
     <ion-segment-button value="login">
       <ion-label>Login</ion-label>
@@ -47,7 +47,7 @@
         <ion-input placeholder="Password" type="password"></ion-input>
       </ion-item>
       <br>
-      <ion-button expand="block">Sign Up</ion-button>
+      <ion-button expand="block" href="./login">Sign Up</ion-button>
     </ion-card-content>
 
   </ion-card>
