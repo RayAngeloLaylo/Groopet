@@ -1,0 +1,45 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+ion-content
+{
+  --ion-background-color:#fff2f7;
+}
+
+ion-segment-button
+{
+  --indicator-color: #c9356c;
+  --color:black;
+}
+
+ion-button
+{
+  --background:#c9356c;
+}
+
+ion-card
+{
+  --background:#fff2f7;
+}
+strong
+{
+  color:black
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 35px;
+  font-family:Lucida Handwriting;
+  color:#c9356c
+}
+
+img{
+  height: 80px;
+  width: 80px;
+}
