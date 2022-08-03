@@ -37,6 +37,10 @@ const routes: Routes = [
     path: 'proofpayment',
     loadChildren: () => import('./proofpayment/proofpayment.module').then( m => m.ProofpaymentPageModule)
   },
+  {
+    path: 'aboutus',
+    loadChildren: () => import('./aboutus/aboutus.module').then( m => m.AboutusPageModule)
+  },
 
 ];
 
