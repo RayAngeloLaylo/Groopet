@@ -1,0 +1,57 @@
+<ion-app>
+  <ion-header>
+  <ion-toolbar class="head">
+    <ion-title align="center" style="font-family:Lucida Handwriting;color: white;">Groopet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  class="booking">
+    <ion-card-header>
+      <ion-card-title style="color: black;"><b>New Bookings:</b></ion-card-title>
+    </ion-card-header>
+
+  <ion-card class = "temp">
+    <ion-item>
+      <ion-icon name="location-outline"></ion-icon>
+      <ion-label align= "left"style="color: white;">Location</ion-label>
+      <ion-button fill="solid" slot="end">Accept</ion-button>
+    </ion-item>
+    <ion-card-content>
+      <p>Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678</p>
+    </ion-card-content>
+  </ion-card>  
+
+  <ion-card-header class="newb">
+    <ion-card-title style="color: black;"><b>Accepted Bookings:</b></ion-card-title>
+  </ion-card-header>
+
+  <ion-card class = "new1">
+    <ion-item>
+      <ion-icon name="location-outline"></ion-icon>
+      <ion-label align= "left"style="color: white;">Location</ion-label>
+      <ion-button fill="solid" slot="end">Details</ion-button>
+    </ion-item>
+    <ion-card-content id="icons1">
+      <ion-icon name="calendar-outline"></ion-icon>
+      <ion-icon name="paw-outline"></ion-icon>
+    </ion-card-content>
+  </ion-card>  
+
+  <ion-card class = "new2">
+    <ion-item>
+      <ion-icon name="location-outline"></ion-icon>
+      <ion-label align= "left"style="color: white;">Location</ion-label>
+      <ion-button fill="solid" slot="end">Details</ion-button>
+    </ion-item>
+    <ion-card-content id="icons2">
+      <ion-icon name="calendar-outline"></ion-icon>
+      <ion-icon name="paw-outline"></ion-icon>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+<ion-footer>
+  <ion-toolbar class="foot">
+    <ion-button id="btn" expand="block" style="font-family:Lucida Handwriting"><b>Create Order</b></ion-button> 
+  </ion-toolbar>
+</ion-footer>
+</ion-app>
